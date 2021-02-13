@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registro</title>
+</head>
+<body  style ="background-color:#0000FF;"  >
+<div align ='center'>
+<form action ="RegistroUsuario"method="get" onsubmit="return validar()" >
+	<p  style="color:red; font-size:30px">Proyecto 1: Registro</p>
+	<p  style="color:red; font-size:30px">Jose Urdaneta C.I:28.436.457 </p>
+	Nombre:
+	<br><br>
+	<input type= "text" id="nombre" name="nombre" placeholder="Ingrese Nombre" required>
+	<br><br>	
+	SegundoNombre:
+	<br><br>
+	<input type= "text"id="2nombre" name="2nombre" placeholder="Ingrese 2do Nombre" required>
+	<br><br>
+ 	Apellido: 
+	<br><br>
+	<input  type= "text" id="apellido" name="apellido" placeholder="Ingrese Apellido" required>
+	<br><br>	
+	SegundoApellido:
+	<br><br>
+	<input type= "text" id="2apellido" name="2apellido" placeholder="Ingrese 2do Apellido" required >
+	<br><br>	
+	Edad:
+	<br><br>
+	<input type= number id="edad" name="edad" placeholder="Ingrese Edad" required pattern= "[0-9]" >
+	<br><br>	
+	Clave:
+	<br><br>
+	la clave debe de tener entre 7 a 15 letras
+	<br><br>
+	<input type= "text" id="clave" name="clave" placeholder="Ingrese la Clave" required pattern="[A-Za-z]{7,15}"   >
+	<br><br>
+	
+
+   
+    
+	<input type="submit" value="enviar">
+	
+	
+</form>
+</div>
+</body>
+</html>
